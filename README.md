@@ -2,7 +2,7 @@
 
 1. install dependencies
 ```
-npm install express gqp apollo-server 
+npm install express gql apollo-server 
 ```
 
 2. run
