@@ -1,5 +1,11 @@
 # API
 
-## npm install express gqp apollo-server 
+1. install dependencies
+```
+npm install express gqp apollo-server 
+```
 
-## node index.js
+2. run
+```
+node index.js
+```
