@@ -2,7 +2,7 @@
 
 1. install dependencies
 ```
-npm install express gql apollo-server mongodb
+npm install express gql apollo-server mongodb graphql
 ```
 
 2. run
