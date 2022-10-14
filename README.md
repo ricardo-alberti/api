@@ -7,6 +7,6 @@ npm install express gql apollo-server mongodb graphql
 
 2. run
 ```
-systemctl start mongodb.service
+systemctl start mongodb
 node index.js
 ```
