@@ -9,5 +9,5 @@ sudo pacman -S mongodb
 ```
 sudo systemctl start mongodb
 npm run dev
-`
+```
 
