@@ -2,6 +2,12 @@ const { gql } = require('apollo-server-express');
 
 module.exports = gql`
   scalar DateTime
+
+  type NoteFeed {
+    notes: [Note]!
+    cursor: String!
+    hasNextPage: Boolean!
+  }
   type Note {
     id: ID!
     author: User!
@@ -22,6 +28,7 @@ module.exports = gql`
   }
 
   type Query {
+    notefeed(cursor: String): NoteFeed
     notes: [Note!]!
     note(id: ID!): Note!
     user(username: String!): User
