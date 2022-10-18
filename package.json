@@ -14,7 +14,7 @@
     ]
   },
   "dependencies": {
-    "apollo-server-express": "2.4.0",
+    "apollo-server-express": "^2.26.0",
     "bcrypt": "^5.0.1",
     "cors": "2.8.5",
     "dotenv": "6.1.0",
@@ -26,11 +26,11 @@
     "graphql-validation-complexity": "0.2.4",
     "helmet": "3.21.2",
     "jsonwebtoken": "8.5.1",
-    "marked": "0.7.0",
+    "marked": "^4.1.1",
     "md5": "2.2.1",
-    "mongoose": "5.7.13",
-    "nodemon": "1.18.7",
-    "passport": "0.4.0",
+    "mongoose": "^5.13.15",
+    "nodemon": "^2.0.20",
+    "passport": "^0.6.0",
     "passport-github2": "0.1.11"
   }
 }

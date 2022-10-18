@@ -4,8 +4,8 @@ module.exports = gql`
   scalar DateTime
   type Note {
     id: ID!
+    author: User!
     content: String!
-    author: String!
     createdAt: DateTime!
     updatedAt: DateTime!
     favoriteCount: Int!
